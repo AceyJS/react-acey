@@ -4,7 +4,7 @@ import { manager, Model } from 'acey'
 import { verifyIfOnlyModelsAndFunction } from './verify'
 import { listModelAndGetterToJSON, hash } from './lib'
 
-export type TConnected = Function | Model
+export type TConnected = (...a: any) => Model | Model
 
 export const connect = (list: TConnected[] = []): Function => {
     verifyIfOnlyModelsAndFunction(list, 'connect')

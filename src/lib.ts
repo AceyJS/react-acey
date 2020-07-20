@@ -7,6 +7,7 @@ export const listModelAndGetterToJSON = (list: TConnected[]) => {
         if (e instanceof Model)
             ret.push(e.toPlain())
         else {
+            console.log(e, e instanceof Model)
             const res = e()
             if (res instanceof Model)
                 ret.push(res.toPlain())

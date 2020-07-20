@@ -6,7 +6,3 @@ export {
     connect,
     useAcey
 }
-
-export default { 
-    connect, useAcey
-}
