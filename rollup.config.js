@@ -11,7 +11,8 @@ const config = {
     output: [
         {
             file: pkg.main,
-            format: 'amd',
+            format: 'umd',
+            name: 'react-acey'
         },
     ],
     plugins: [

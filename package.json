@@ -6,8 +6,9 @@
   "scripts": {
     "prepare": "install-peers",
     "build": "NODE_ENV=production rollup -c",
-    "build:dev": "sh dev-build.sh",
-    "clean": "rm -rf dist"
+    "build:dev": "yarn && sh dev-build.sh && yarn cleanf",
+    "clean": "rm -rf dist",
+    "cleanf": "npm clean && rm -rf node_modules"
   },
   "files": [
     "dist/**"
@@ -27,6 +28,7 @@
     "typescript": "^3.7.5"
   },
   "peerDependencies": {
-    "acey": "^1.3.1"
+    "acey": "^1.3.1",
+    "react": "^16.13.1"
   }
 }
