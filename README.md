@@ -1,6 +1,6 @@
 # React Acey
 
-React Acey is the official React binding for [Acey](https://github.com/arysociety/acey). 
+React Acey is the official React binding for [Acey](https://github.com/aceyjs/acey). 
 
 It lets your React components read data from your **Models and Collections**
 
