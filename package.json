@@ -1,6 +1,6 @@
 {
   "name": "react-acey",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -29,7 +29,7 @@
     "typescript": "^3.7.5"
   },
   "peerDependencies": {
-    "acey": "^1.5.2",
+    "acey": "^1.5.3",
     "react": "^17.0.2"
   }
 }
